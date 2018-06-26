@@ -134,7 +134,7 @@ exports.validate = (req, res) => {
 
 exports.geo = (req, res) => {
     maxmind.open(
-        "/root/api/app/utils/geo/GeoLite2-City.mmdb",
+        "../utils/geo/GeoLite2-City.mmdb",
         (err, cityLookup) => {
             if (err) res.status(500).send({ error: "Some error occurred" });
             var city = cityLookup.get(req.params.data);
