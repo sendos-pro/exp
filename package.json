@@ -1,0 +1,51 @@
+{
+  "name": "restbz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "busboy": "^0.2.14",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dns-socket": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "express-graphql": "^0.6.12",
+    "generic-pool": "^3.4.2",
+    "graphql": "^0.13.2",
+    "gridfs-stream": "^1.1.1",
+    "is-domain-name": "^1.0.1",
+    "is-email-like": "^1.0.0",
+    "is-ip": "^2.0.0",
+    "joi": "^13.2.0",
+    "json-server": "^0.12.2",
+    "lodash": "^4.17.10",
+    "maxmind": "^2.7.0",
+    "mongoose": "^5.1.6",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "p-map": "^1.2.0",
+    "pretty-bytes": "^5.1.0",
+    "pretty-ms": "^3.2.0",
+    "sendos-tools": "*",
+    "sendos-tools-abusenet": "^1.0.1",
+    "sendos-tools-dnsbl": "^1.0.5",
+    "sendos-tools-senderscore": "^1.0.7",
+    "sendos-tools-smtp": "^1.0.9",
+    "sendos-tools-validate": "^1.0.8",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

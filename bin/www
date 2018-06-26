@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+require('dotenv').config();
+const logger = require('../app/log')(module);
+const app = require('../app/app');
+
+app.set('port', process.env.PORT || 3000);
+
+const server = app.listen(app.get('port'), function () {
+  logger.info('API server listening on port ' + app.get('port'));
+});
